@@ -1,0 +1,96 @@
+h1{
+  background-color: #1E92F5;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+}
+#pie{
+  width: 40vw;
+  display: block;
+  margin: auto;
+}
+#formula{
+  width: 38vw;
+  border-radius: 5px;
+}
+#aboutp{
+  background-color: #40FF00;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+#ppiiee{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+button{
+  background-color: #278BB2;
+  height: 48px;
+  padding: 4px;
+  border-radius: 6px;
+  width: 120px;
+  margin: 6px 10px;
+}
+span{
+  height: 15px;
+  width: 15px;
+  background-color: #40FF00;
+  border-radius: 7.5px;
+  padding: 10px;
+}
+hr{
+  border-top: 2px solid black;
+  width: 500px;
+}
+#valueofp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+}
+#digitsofp{
+  background-color: #D3D5ED;
+  border-radius: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  word-break: break-all;
+  white-space: normal;
+  width: 100%;
+  overflow-wrap: anywhere;
+  font-family: monospace;
+}
+input{
+  width: 200px;
+  margin: 10px;
+}
+#valuoffp::after{
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  0%{opacity:1;}
+  50%{opacity:0;}
+  100%{opacity:1;}
+}
+#s{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#rew{
+  width: 300px;
+}
+#valuoffp{
+  font-size: 20px;
+}

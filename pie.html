@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pi</title>
+  <link rel="stylesheet" href="pie.css">
+</head>
+<body>
+  <h1>Pi <span>π</span></h1>
+  <div id="ppiiee">
+    <img id="pie" src="https://pbs.twimg.com/media/EwUk7SRUYAUgTVP.jpg">
+    <div id="aboutp">
+      <h3>About pi</h3>
+      <p>π (Pi) is a mathematical constant that represents the ratio of a circle’s circumference to its diameter, approximately 3.14159. It is widely used in formulas related to circles. Srinivasa Ramanujan discovered many powerful formulas for π, such as:</p>
+      <img id="formula" src="https://media.licdn.com/dms/image/v2/D5622AQGI2l_Q8lFWPw/feedshare-shrink_800/B56Zg4qjSHHcAg-/0/1753297336565?e=2147483647&v=beta&t=xmXw59IPwdHqU3tIVLRP6FKcs7xXssNeVQ28lfbryDw">
+      <p>This formula is famous for calculating π very accurately.</p>
+    </div>
+  </div>
+  <hr>
+  <h2>Value of pi</h2>
+  <p>Select how many digits do you want to see on each click. you can change speed(optional).</p>
+  <div id="valueofp">
+    <input type="range" min="1" max="200" id="slider">
+    <p id="range"></p>
+     <p id="threeonefour">Select digits</p>
+    <button onclick="knowp()" id="but">Show digits</button>
+    <button id="speed" onclick="spd()">Speed</button>
+  </div>
+  <div id="s">
+  <p id="sp"></p>
+  </div>
+  <div id="digitsofp">
+    <p id="valuoffp"></p>
+  </div>
+  <script src="pie.js"></script>
+</body>
+</html>
